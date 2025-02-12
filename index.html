@@ -3,132 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earns - Earn Money Online</title>
-    
-    <!-- Internal CSS for styling -->
+    <meta name="monetag" content="d9fe1be28d509b12b5d24e568393a402">
+    <title>Earns</title>
     <style>
-        * {
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
+        .container {
             text-align: center;
-            background-color: #0044cc;
-            color: white;
-            padding: 50px 0;
-        }
-
-        header h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 1.2rem;
-        }
-
-        main {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        section {
-            background-color: white;
-            border-radius: 10px;
-            padding: 20px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 30px;
-            text-align: center;
         }
 
-        section h2 {
-            font-size: 2rem;
+        h1 {
+            font-size: 36px;
             color: #333;
-            margin-bottom: 20px;
         }
 
-        section p {
-            font-size: 1rem;
+        p {
+            font-size: 18px;
             color: #666;
-            margin-bottom: 20px;
         }
 
-        button {
-            background-color: #0044cc;
-            color: white;
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 16px;
             border: none;
-            padding: 15px 30px;
-            font-size: 1.2rem;
-            cursor: pointer;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            text-decoration: none;
         }
 
-        button:hover {
-            background-color: #0033aa;
-        }
-
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            margin-top: 50px;
-        }
-
-        footer p {
-            font-size: 1rem;
-        }
-
-        /* Mobile responsive design */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2.5rem;
-            }
-
-            section h2 {
-                font-size: 1.8rem;
-            }
-
-            button {
-                padding: 10px 20px;
-                font-size: 1rem;
-            }
+        .btn:hover {
+            background-color: #218838;
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Welcome to Earns</h1>
-        <p>Your platform to earn money online!</p>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Start Earning Today</h2>
-            <p>Sign up now and explore ways to earn money online.</p>
-            <button onclick="window.location.href='https://signup-link.com'">Get Started</button>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Earns. All rights reserved.</p>
-    </footer>
-
-    <!-- Monetag Ad Script -->
-    <script type="text/javascript" src="https://static.monetag.io/script.js"></script>
-    <script type="text/javascript">
-        monetag.init({accountId: 'YOUR_ACCOUNT_ID'});
-    </script>
+        <p>Earn rewards by completing simple tasks.</p>
+        <a href="#" class="btn">Get Started</a>
+    </div>
 </body>
 </html>
